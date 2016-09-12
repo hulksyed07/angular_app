@@ -26,6 +26,7 @@ angular.module('flapperNews', ['ui-router'])
   }])
 .controller('MainCtrl', [
   '$scope',
+  'posts',
   function($scope,posts){
     $scope.test = 'Hello world!';
 
